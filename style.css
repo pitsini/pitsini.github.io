@@ -1,0 +1,42 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;  
+  background-color: black;
+}
+
+.font {
+  color: white;
+  text-transform: uppercase;	
+}
+
+.bg_container {
+	width: 100%;
+}
+
+.heading_container {
+  font-size: 1.2em;
+
+  /*positioning*/
+  position: absolute;
+  top: 30%;
+  left: 25%;
+}
+
+img {
+	/*resizing image automatically*/
+	max-width: 100%;
+	height: auto;
+}
+
+.button_container {
+	/*positioning*/
+	position: absolute;
+	top: 57%;
+	left: 40%;
+}
+
